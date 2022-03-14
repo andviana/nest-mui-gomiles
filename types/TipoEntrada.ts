@@ -6,4 +6,16 @@ export interface TipoEntrada {
   entradas?:Entrada[],
 }
 
+export function createTipoEntrada(  
+  descricao: string,
+  id?: number,
+  entradas?: Entrada[],  
+): TipoEntrada {
+  return {
+    id,
+    descricao,
+    entradas,    
+  };
+}
+
 

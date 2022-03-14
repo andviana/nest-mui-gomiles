@@ -5,9 +5,7 @@ import Title from '../../components/Title'
 const TipoSaidas: React.FC = () => {
     return (
         <>
-            <Title>
-                Tipos de Saída
-            </Title>
+            
             <div>
                 <Box
                     sx={{
