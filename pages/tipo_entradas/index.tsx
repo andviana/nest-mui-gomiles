@@ -10,8 +10,6 @@ import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import SearchIcon from '@mui/icons-material/Search';
-import EditIcon from '@mui/icons-material/Edit';
 import IconButton from '@mui/material/IconButton'
 import AddIcon from '@mui/icons-material/Add';
 import { routes } from '../../config/routes'
@@ -19,13 +17,14 @@ import Swal from 'sweetalert2'
 import Title from '../../components/Title'
 import Link from 'next/link'
 import { Avatar, Box, FormControlLabel, Switch, TableContainer, TablePagination, TableSortLabel, Toolbar, Tooltip, Typography } from '@mui/material'
-import CustomTable from '../../components/CustomTable'
 import { getComparator, Order, stableSort } from '../../utility/comparator'
 import { visuallyHidden } from '@mui/utils';
 import FilterListIcon from '@mui/icons-material/FilterList';
+import SearchIcon from '@mui/icons-material/Search';
+import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { useRouter } from 'next/router'
 import { stringAvatar } from '../../utility/avatarUtil'
+import { useRouter } from 'next/router'
 
 
 
